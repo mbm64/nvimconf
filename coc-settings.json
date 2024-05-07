@@ -1,0 +1,10 @@
+{  "clangd.arguments": [
+    "--query-driver=/opt/devkitpro/devkitARM/bin/arm-none-eabi-gcc, /bin/gcc",
+    "--background-index",
+	"--log=verbose",
+	"--header-insertion=never"],
+	"coc.source.OmniSharp.enable" : true,
+  "coc.source.OmniSharp.triggerCharacters": ".",
+  
+  
+}
